@@ -67,6 +67,10 @@ header a:hover{
   font-weight:bold;
 }
 
+.foodQuiz{
+  width: 250px;
+}
+
 /* Media queries */
 @media(max-width:768px){
   header #branding,
@@ -76,6 +80,10 @@ header a:hover{
     text-align:center;
     width:100%;
 
+  }
+
+  .foodQuiz{
+    width: 250px;
   }
 
   header{
