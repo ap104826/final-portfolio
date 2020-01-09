@@ -1,85 +1,85 @@
 body{
-    font:15px/1.5 sans-serif,Arial;
-    padding:0;
-    margin:0;
-    background-color:skyblue
-  }
+  font:15px/1.5 sans-serif,Arial;
+  padding:0;
+  margin:0;
+  background-color: lightskyblue
+}
+
+/*global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+row btnSpace{
   
-  /*global */
-  .container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* header **/
+header{
+  background:green
+  color:bisque;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:yellow 3px solid;
+}
+
+header a{
+  color:beige;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+
+
+header li{
+  float:left;
+  display:inline;
+  padding:0 20px 0 20px;
+}
+
+header #name{
+  float:left;
+}
+
+header #name h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d
+  font-weight: bold;
+}
+
+header a:hover{
+  color:black;
+  font-weight:bold;
+}
+
+/* Media queries */
+@media(max-width:768px){
+  header #branding,
+  header nav,
+  header nav li{
+    float:none;
+    text-align:center;
+    width:100%;
+
   }
-  row btnSpace{
+
+  header{
+    padding-bottom:20px;
     
   }
-  
-  ul{
-    margin:0;
-    padding:0;
-  }
-  
-  /* header **/
-  header{
-    background:green
-    color:bisque;
-    padding-top:30px;
-    min-height:70px;
-    border-bottom:yellow 3px solid;
-  }
-  
-  header a{
-    color:beige;
-    text-decoration:none;
-    text-transform: uppercase;
-    font-size:16px;
-  }
-  
-  
-  
-  header li{
-    float:left;
-    display:inline;
-    padding:0 20px 0 20px;
-  }
-  
-  header #name{
-    float:left;
-  }
-  
-  header #name h1{
-    margin:0;
-  }
-  
-  header nav{
-    float:right;
-    margin-top:10px;
-  }
-  
-  header .highlight, header .current a{
-    color:#e8491d
-    font-weight: bold;
-  }
-  
-  header a:hover{
-    color:black;
-    font-weight:bold;
-  }
-  
-  /* Media queries */
-  @media(max-width:768px){
-    header #branding,
-    header nav,
-    header nav li{
-      float:none;
-      text-align:center;
-      width:100%;
-  
-    }
-  
-    header{
-      padding-bottom:20px;
-      
-    }
-  }
+}
