@@ -5,6 +5,10 @@ body{
   font-family:'Open Sans'; 
 }
 
+.containerSocial{
+  display:block;
+  margin-left: 50px;
+}
 /*global */
 .container{
   width:80%;
