@@ -5,10 +5,8 @@ body{
   font-family:'Open Sans'; 
 }
 
-.containerSocial{
-  display:block;
-  margin-left: 50px;
-}
+
+
 /*global */
 .container{
   width:80%;
@@ -76,12 +74,12 @@ header a:hover{
 }
 
 /* Media queries */
-@media(max-width:768px){
-  header #branding,
-  header nav,
+@media(max-width:600px){
   header nav li{
     float:none;
-    text-align:center;
+    text-align:left;
+    display:inline-block;
+    position:relative;
     width:100%;
 
   }
