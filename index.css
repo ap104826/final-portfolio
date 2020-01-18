@@ -1,13 +1,87 @@
+body {
+    color: darkslategray;
+    padding: 0;
+    margin: 0;
+    background-color:white;
+    font-family:'open sans';
+}
 
+.container{
+    width:80%;
+    margin: 20px auto;
+    overflow:hidden;
+}
 
+ul{
+    margin:0;
+    padding:0;
+}
 
+header{
+    padding-top:30px;
+    min-height:70px;
+}
 
+a {
+    color:#207561;
+    text-decoration: none;
+    font-size: 16px;
+}
 
+header a{
+    color:#207561;
+    text-decoration: none;
+}
 
+.navBar {
+    overflow: hidden;
+    width:80%;
+    margin:auto;
+}
+  
+.navBar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 25px 14px 14px;
+    text-decoration: none;
+}
 
+.navBar a:first-child {
+    padding: 10px 40px 14px 0px;
+    font-size: 22px;
+}
 
+.contactLink {
+    margin-right: 20px;
+}
 
+.foodQuiz{
+    width: 250px;
+}
 
+.navBar .icon {
+    display: none;
+}
 
-
-
+@media screen and (max-width: 600px) {
+    .navBar a:not(:first-child) {display: none;}
+    .navBar a.icon {
+        float: right;
+        display: block;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .navBar.responsive {position: relative;}
+    .navBar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navBar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

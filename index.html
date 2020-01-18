@@ -1,98 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
-        <header class="header">
-          <div class= "container">
-            <div id="name">
-              <h1>Arpita Mehta</h1>
-              
-              </div>
-          
-           <nav class="navbar">
-             <div class="hamburger">&#9776;</div>
-              <ul class="menu">
-                <li>
-                    <a href="#about">About</a></li>
-              
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contactDetail">Contact</a>
-                </li>
-              </ul>
-          
-            </nav>
-          </header>
+  <header class="header">
+    <div class="navBar" id="myNavBar">
+      <a href="#" class="name">Arpita Mehta</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contactDetail">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        &#9776;
+      </a>
+    </div>
+  </header>
 
-        <section id= "about">
-          
-            <div class="container">
-              <a name="about">
-                </a>
-              <h1>About</h1>
-              </section>
-              <div class="container">
-                      <a href="https://github.com/ap104826" class="btn btn-block btn-default" role="button"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
-              </div>
-              <br>
-              <div class="container">
-                      <a href="https://linkedin.com/feed/?trk=onboarding-landing" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
-              </div>
-              <br>
-                <p class="container">
-                     My name is Arpita Mehta. I am a front end web developer that loves to cook. I have been teaching myself coding for over a year now and because of my interest and passion in this new field I joined Front End Web development bootcamp at Thinkful. I enjoy coding and technology because  it involves logic and being able to see ideas come to life.
-                </P>  
-                  </div>
-                   <div class="row btnSpace">
-      <div class="col-xs-3">
-        
-        <section id="Projects">
-          <div class="container">
-            <a name="projects"></a>
-                <h1>Projects</h1> 
-           <h2>World-food-quiz-app</h2>
-            <div class="Project-title">
-            <div class="project-img">
-              <img class="foodQuiz" src="food-quiz.png" alt="food-quiz">
-          </div>
+  <section id="about">
 
-<h3>Project description</h3> I built this quiz app to showcase my knowledge of Jquery. Its handles user input and guides the user to a series of questions. The technical capabilities of  j query used in this app include: form submission, handling click events, and DOM manipulation.
+    <div class="container">
+      <a name="about">
+      </a>
+      <p>
+        My name is Arpita Mehta. I am a front end web developer that loves to cook. I have been teaching myself coding for
+        over a year now and because of my interest and passion in this new field I joined Front End Web development bootcamp
+        at Thinkful. I enjoy coding and technology because it involves logic and being able to see ideas come to life.
+      </P>
+      </div>
+  </section>
 
-<h3>Technologies used</h3>  The technologies used in this app include: HTML, CSS, JavaScript and responsive design.
+  <section>
+    <div class="container">
+      <a name="projects"></a>
+      <h2>Projects</h2>
+      <h3>World Food Quiz App</h3>
+      <div class="Project-title">
+        <div class="project-img">
+          <img class="foodQuiz" src="food-quiz.png" alt="food-quiz">
+        </div>
 
-<h3>Link to a live app </h3><a href="https://world-Food-quiz.arpitapatel02.repl.co" target="_blank">https://world-Food-quiz.arpitapatel02.repl.co</a> 
-        </section>
-        <section>
-          <div class="container">
-              <a name="contactDetail"></a>
-              <h1>Contact</h1>
-              <a href="mailto:arpita.pate,02@gmail.com">arpita.patel02@gmail.com</a>
+        <h4>Project description</h4> I built this quiz app to showcase my knowledge of Jquery. Its handles user
+        input and guides the user to a series of questions. The technical capabilities of j query used in this app
+        include: form submission, handling click events, and DOM manipulation.
+
+        <h4>Technologies used</h4> The technologies used in this app include: HTML, CSS, JavaScript and responsive
+        design.
+
+        <h4>Link to a live app </h4><a href="https://world-Food-quiz.arpitapatel02.repl.co"
+          target="_blank">https://world-Food-quiz.arpitapatel02.repl.co</a>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <a name="contactDetail"></a>
+      <h2>Contact</h2>
+      <a href="mailto:arpita.patel02@gmail.com" class="contactLink">arpita.patel02@gmail.com</a>
+      <a href="https://github.com/ap104826" class="contactLink" role="button"><i class="fa fa-github"
+          aria-hidden="true"></i>GitHub</a>
+      <a href="https://linkedin.com/feed/?trk=onboarding-landing" title="LinkedIn"
+        class="contactLink">LinkedIn</a>
       </address>
-              <h3>Lets work together</h6>
-              <form>
-                <input type="email" placeholder="Enter Email">
-                <button type="submit" class="button_1">Submit</button>
-              </form>
-            </div>
-         
-           
-        </section>
-
-       <div id="section4" class="container-fluid">
-    <div class="bodySize">
-      <address>
-        
-    </div> <!-- end of Contact section div -->
-  </div> <!-- end of container-fluid div -->
-    </main>
-    <footer role="content-info"></footer>
+      <h3>Lets work together</h6>
+        <form>
+          <input type="email" placeholder="Enter Email">
+          <button type="submit" class="button_1">Submit</button>
+        </form>
+    </div>
+  </section>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myNavBar");
+      if (x.className === "navBar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navBar";
+      }
+    }
+    </script>
 </body>
+
 </html>
