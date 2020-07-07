@@ -61,8 +61,8 @@ header a{
 }
 
 .navBar a:first-child {
-    padding: 10px 40px 14px 0px;
-    font-size: 22px;
+    padding: 8px 40px 10px 40px;
+    font-size: 25px;
     color: #2D351A;
 
 }
