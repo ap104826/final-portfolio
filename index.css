@@ -11,32 +11,43 @@ body {
     width:80%;
     margin: 20px auto;
     overflow:hidden;
+    color: #2D351A;
+
 }
 
 ul{
     margin:0;
     padding:0;
+    color: #2D351A;
 }
 
 header{
     padding-top:30px;
     min-height:70px;
+    color: #2D351A;
+
 }
 
 a {
     text-decoration: none;
     font-size: 16px;
     background-color: #b18886;
+    color: #2D351A;
+
 }
 
 header a{
     text-decoration: none;
+    color: #2D351A;
+
 }
 
 .navBar {
     overflow: hidden;
     width:80%;
     margin:auto;
+    color: #2D351A;
+
 }
   
 .navBar a {
@@ -45,23 +56,33 @@ header a{
     text-align: center;
     padding: 14px 25px 14px 14px;
     text-decoration: none;
+    color: #2D351A;
+
 }
 
 .navBar a:first-child {
     padding: 10px 40px 14px 0px;
     font-size: 22px;
+    color: #2D351A;
+
 }
 
 .contactLink {
     margin-right: 20px;
+    color: #2D351A;
+
 }
 
 .foodQuiz{
     width: 250px;
+    color: #2D351A;
+
 }
 
 .navBar .icon {
     display: none;
+    color: #2D351A;
+
 }
 
 @media screen and (max-width: 600px) {
@@ -69,6 +90,8 @@ header a{
     .navBar a.icon {
         float: right;
         display: block;
+        color: #2D351A;
+
     }
 }
   
@@ -78,10 +101,14 @@ header a{
         position: absolute;
         right: 0;
         top: 0;
+        color: #2D351A;
+
     }
     .navBar.responsive a {
         float: none;
         display: block;
         text-align: left;
+        color: #2D351A;
+
     }
 }
